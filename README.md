@@ -8,7 +8,5 @@
 ## 为何不用网页端？
 浏览器内存占用跟CPU占用依旧是比此端高的，并且我喜欢一打开就是B站。
 
-![main](https://github.com/user-attachments/assets/7fb6419d-9e3f-438c-afbd-66ff18af4a91)
-
 对内存进行了些许优化
 未来更新根据实际情况
