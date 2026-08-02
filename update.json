@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 14,
-  "latestVersionName": "0.1.6",
+  "latestVersionCode": 13,
+  "latestVersionName": "0.1.5",
   "minVersionCode": 1,
   "forceUpdate": false,
-  "apkUrl": "https://github.com/Yui-Little/YuiBili/releases/download/v0.1.6/yuibili.apk",
+  "apkUrl": "https://github.com/Yui-Little/YuiBili/releases/download/v0.1.5/yuibili.apk",
   "updateLog": "1. 修复 xxx\n2. 优化 yyy",
   "checkIntervalHours": 12
 }
