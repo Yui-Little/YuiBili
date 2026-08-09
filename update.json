@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 13,
-  "latestVersionName": "0.1.5",
+  "latestVersionCode": 41,
+  "latestVersionName": "0.1.33",
   "minVersionCode": 1,
   "forceUpdate": false,
-  "apkUrl": "https://github.com/Yui-Little/YuiBili/releases/download/YuiBili1/YuiBili-0.1.5.apk",
-  "updateLog": "1. 修复 xxx\n2. 优化 yyy",
+  "apkUrl": "https://github.com/Yui-Little/YuiBili/releases/download/Yui-0.1.33/YuiBili-0.1.33.apk",
+  "updateLog": "1. 修复 部分bug\n2. 优化 部分界面\n为了你的体验，请更新到最新版本",
   "checkIntervalHours": 12
 }
