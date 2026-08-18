@@ -61,16 +61,6 @@
 - 无文字图标化底部 Dock、克制的短动画（可打断、支持系统减弱动画）
 - 不采用实时截图模糊，避免持续的 GPU / 内存开销
 
-## 📷 截图
-
-> 截图待补充：将图片放入 `docs/screenshots/` 后，替换下方占位即可。
-
-<p align="center">
-  <img src="docs/screenshots/home.png" width="30%" alt="首页"/>
-  <img src="docs/screenshots/player.png" width="30%" alt="播放页"/>
-  <img src="docs/screenshots/download.png" width="30%" alt="下载页"/>
-</p>
-
 ## 🛠️ 技术栈
 
 | 类别 | 选型 |
