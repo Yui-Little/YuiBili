@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <!-- 所有文件访问：部分国产 ROM 的 MediaStore 不支持硬删（删除只进回收站 .trashed 残留），
+         授予后可直接物理删除相册中的导出副本 -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="YuiBili"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".VideoDetailActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" />
+        <activity android:name=".SearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" android:exported="false" />
+        <activity
+            android:name=".HistorySearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".FavoriteSearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:exported="false" />
+        <activity android:name=".ProfileSubActivity" android:exported="false" />
+        <activity
+            android:name=".DownloadPickerActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" />
+        <activity
+            android:name=".DownloadSeasonActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".DownloadManager$DownloadService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+    </application>
+</manifest>

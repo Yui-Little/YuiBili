@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Original YuiBili rose badge: a soft pink disc and an airy Y-ribbon. -->
+    <path
+        android:fillColor="#FFFCEFF5"
+        android:pathData="M24,1.5C11.57,1.5 1.5,11.57 1.5,24S11.57,46.5 24,46.5 46.5,36.43 46.5,24 36.43,1.5 24,1.5z" />
+    <path
+        android:fillColor="#FFF15298"
+        android:pathData="M24,3.5C12.68,3.5 3.5,12.68 3.5,24S12.68,44.5 24,44.5 44.5,35.32 44.5,24 35.32,3.5 24,3.5z" />
+    <path
+        android:fillColor="#FFFF9EC5"
+        android:fillAlpha="0.42"
+        android:pathData="M14,7.8C9.18,11.28 6.05,16.95 6.05,23.35c0,2.05 0.33,4.02 0.94,5.86C10.73,21.1 17.28,13.8 25.75,10.63C21.41,9.01 17.43,8.11 14,7.8z" />
+    <path
+        android:fillColor="#00FFFFFF"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M14.7,14.8L24,25.2L33.3,14.8M24,25.2L24,34.4" />
+    <path
+        android:fillColor="#FFFFD9E8"
+        android:pathData="M29.4,27.7L35.2,31.05L29.4,34.4z" />
+</vector>

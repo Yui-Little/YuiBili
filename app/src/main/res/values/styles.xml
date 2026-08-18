@@ -1,0 +1,15 @@
+<resources>
+    <!-- Theme.Material.Light is retained for API 23 compatibility; runtime colors are
+         applied by Theme.init/applySystemBars before content is attached. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:colorAccent">#EF488B</item>
+        <item name="android:statusBarColor">@color/window_background</item>
+        <item name="android:navigationBarColor">@color/window_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

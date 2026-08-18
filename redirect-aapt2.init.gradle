@@ -1,0 +1,21 @@
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
+
+def launcher = file('/data/data/cn.com.omnimind.bot/local/build-tools/aapt2-launcher')
+allprojects {
+    tasks.configureEach { t ->
+        t.doFirst {
+            def root = file(System.getenv('GRADLE_USER_HOME') ?: gradle.gradleUserHomeDir)
+            if (root.exists()) {
+                root.eachFileRecurse { f ->
+                    if (f.isFile() && f.name == 'aapt2' && f.canExecute()) {
+                        try {
+                            Files.copy(launcher.toPath(), f.toPath(), StandardCopyOption.REPLACE_EXISTING)
+                            f.setExecutable(true, false)
+                        } catch (Throwable ignored) { }
+                    }
+                }
+            }
+        }
+    }
+}

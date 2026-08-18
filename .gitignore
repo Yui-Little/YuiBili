@@ -1,0 +1,9 @@
+.gradle/
+.gradle-home/
+.kotlin/
+app/build/
+build/
+local.properties
+*.iml
+.idea/
+aapt2-launcher
